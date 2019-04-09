@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  background-color: grey;
+  margin: 0px;
+  padding: 50px;
+  color: white;
+}
+
+nav {
+  background-color: steelblue;
+  height: 50px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  padding: 15px;
+}
+
+nav ul li:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
