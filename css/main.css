@@ -11,6 +11,10 @@ h1 {
   color: white;
 }
 
+/******************************************
+Starts css for navbar
+******************************************/
+
 nav {
   background-color: steelblue;
   height: 50px;
@@ -36,4 +40,109 @@ nav ul li a {
   font-size: 18px;
   text-decoration: none;
   color: white;
+}
+
+nav ul li:nth-child(4) {
+  color: white;
+  padding: 11px;
+}
+
+.pull-right {
+  float: right;
+}
+
+/*****************************************
+ends css for navbar
+******************************************/
+
+/*****************************************
+start css for main section
+*******************************************/
+main {
+  margin-top: 100px;
+}
+
+#personal, #hobbies {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+#products, footer {
+  float: left;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  margin: 50px auto;
+}
+
+button {
+  display: block;
+  margin: 25px auto;
+  border: 3px solid steelblue;
+  background-color: black;
+  color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#personal>img {
+  display: block;
+  margin: 0px auto;
+}
+
+ol {
+  display: block;
+  margin: 25px auto;
+}
+
+ol>li {
+  font-family: sans-serif;
+  margin: 10%;
+  margin-top: 50px;
+  font-size: 200%;
+}
+
+table {
+  /* display: block; */
+  margin: 25px auto;
+  width: 80vw;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: grey;
+}
+
+table th, table td {
+  text-align: center;
+  padding: 15px;
+}
+
+table>tbody>tr:nth-child(odd) {
+  background-color: black;
+  color: white;
+}
+
+
+/*******************************************
+end css for main section
+*******************************************/
+
+footer {
+  margin-top: 100px;
+}
+
+footer>p {
+  font-style: italic;
 }
