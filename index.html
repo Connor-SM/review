@@ -7,6 +7,11 @@
     <meta name="keywords" content="HTML,CSS,Python,Prework,Coding,Temple">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scallable=yes">
     <title>Review - Home</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- attach own css -->
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <!-- this is an HTML comment -->
@@ -17,6 +22,8 @@
           <li><a href="./index.html">Home</a></li>
           <li><a href="./pages/projects.html">Projects</a></li>
           <li><a href="#below">Bottom of Page</a></li>
+          <li><span class="material-icons">alarm</span></li>
+          <li class="pull-right"><a href="#">About</a></li>
         </ul>
       </nav>
     </header>
@@ -25,22 +32,23 @@
     <main>
       <h1>Main</h1>
 
-      <div id="personal">
-        <h3>Connor Milliken</h3>
-        <button onClick="alert('Hello')">Click Me!</button>
-        <br/>
-        <br/>
-        <img src="http://placehold.it/250x250" alt="Connor Milliken" />
-      </div> <!-- end personal section -->
+      <div>
+        <div id="personal">
+          <h3>Connor Milliken</h3>
+          <button onClick="alert('Hello')">Click Me!</button>
+          <br/>
+          <br/>
+          <img src="http://placehold.it/250x250" alt="Connor Milliken" />
+        </div> <!-- end personal section -->
 
-      <div id="hobbies">
-        <h3>Hobbies</h3>
-        <ol>
-          <li>Programming</li>
-          <li>Sports</li>
-          <li>Video Games</li>
-        </ol>
-      </div> <!-- ends hobbies section -->
+        <div id="hobbies">
+          <h3>Hobbies</h3>
+          <ol>
+            <li>Programming</li>
+            <li>Sports</li>
+            <li>Video Games</li>
+          </ol>
+        </div> <!-- ends hobbies section -->
 
       <div id="products">
         <h3>Products Table</h3>

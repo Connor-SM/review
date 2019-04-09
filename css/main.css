@@ -1,0 +1,132 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding: 50px;
+  margin: 0px;
+  background-color: grey;
+}
+
+nav {
+  background-color: steelblue;
+  height: 50px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  padding: 15px;
+}
+
+nav ul li:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.pull-right {
+  float: right;
+}
+
+nav ul li:nth-child(4) {
+  padding: 10px;
+  color: white;
+}
+
+.material-icons {
+  padding-top: 2px;
+}
+
+main {
+  margin-top: 100px;
+  display: block;
+}
+
+#personal, #hobbies {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+#products {
+  float: left;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  margin: 50px auto;
+}
+
+button {
+  display: block;
+  margin: 25px auto;
+  width: 150px;
+  background-color: black;
+  border: 0px solid black;
+  border-radius: 100%;
+  height: 150px;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#personal>img {
+  display: block;
+  margin: 25px auto;
+  border-radius: 100%;
+}
+
+ol>li {
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: fantasy;
+  padding-left: 10%;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  float: left;
+}
+
+table {
+  margin: 25px auto;
+  width: 80vw;
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: grey;
+  padding: 15px;
+}
+
+table td {
+  padding: 15px;
+  text-align: center;
+}
+
+footer>p {
+  font-style: italic;
+}
